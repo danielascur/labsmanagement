@@ -58,7 +58,7 @@ p{margin:0 0 .9em}
 .home-text{background:var(--grey-bg);border-radius:14px 0 0 0;padding:30px}
 .home-side{display:grid;gap:20px}
 .box-lime{background:var(--lime);border-radius:10px 0 0 0;padding:30px;text-align:center}
-.box-lime h2{font:600 22px/1.4 Montserrat,Arial,sans-serif;text-transform:uppercase;color:var(--primary)}
+.box-lime h2{margin:0;font:600 22px/1.4 Montserrat,Arial,sans-serif;text-transform:uppercase;color:var(--primary)}
 .box-joint{border-radius:10px 0 0 0;overflow:hidden}
 .box-joint-head{background:var(--primary);padding:20px;text-align:center}
 .box-joint-head h2{font:600 25px/1.4 Montserrat,Arial,sans-serif;text-transform:uppercase;color:var(--lime);margin:0}
@@ -77,7 +77,7 @@ p{margin:0 0 .9em}
 .person p{margin:0 0 15px}
 .person .btn{font-size:13px}
 .person .btn:hover,.person .btn:focus{background:var(--lime);color:var(--primary)}
-.lead{max-width:900px;margin:0 auto 20px}
+.lead{max-width:900px;margin:0 0 20px}
 
 /* Funders */
 .funders{display:flex;flex-wrap:wrap;gap:60px;justify-content:center;align-items:center;margin-top:30px}
@@ -90,6 +90,8 @@ p{margin:0 0 .9em}
 .contact-form input,.contact-form textarea{width:100%;padding:6px 16px;border:1px solid var(--field-border);border-radius:3px;background:#fff;font:inherit;color:var(--text);min-height:40px}
 .contact-form .btn{width:100%;margin-top:14px;color:var(--lime)}
 .contact-form .btn:hover{background:var(--primary);color:var(--lime)}
+
+.notice{background:var(--grey-bg);border-left:4px solid var(--lime);border-radius:0 0 0 0;padding:12px 16px;margin-bottom:10px}
 
 /* Sign-up */
 .signup-wrap{max-width:767px}
